@@ -24,11 +24,8 @@ import { Calma } from './EnterprisePrivateZone/Calma'
 import { Habitos } from './EnterprisePrivateZone/Habitos'
 import AreasPage from './EnterprisePrivateZone/Dashboard'
 import TrainingBuilder from './EnterprisePrivateZone/TrainingBuilder'
-<<<<<<< HEAD
 import PausaLayout from './EnterprisePrivateZone/PausaLayout'
 import Deka from './EnterprisePrivateZone/Deka'
-=======
->>>>>>> origin/main
 
 
  
@@ -81,7 +78,6 @@ export default function App() {
 {/* Clientes */}
  <Route path="/login-clientes" element={<EnterpriseLogin />} />
         <Route element={<ProtectedRoute />}>
-<<<<<<< HEAD
           <Route element={<PausaLayout />}>
             <Route path="/dashboard" element={<AreasPage />} />
             <Route path="/movimiento" element={<Movimiento />} />
@@ -93,17 +89,6 @@ export default function App() {
             <Route path="/entrenamiento-personalizado" element={<TrainingBuilder />} />
           </Route>
         </Route>
-=======
-          <Route path="/dashboard" element={<AreasPage />} />
-             <Route path="/alimentacion" element={<AlimentacionDashboard />} />
-         <Route path="/movimiento" element={<Movimiento />} />
-                    <Route path="/entrenamiento-personalizado" element={<TrainingBuilder />} />
-
-<Route path="/fuerza" element={<Fuerza />} />
-<Route path="/calma" element={<Calma />} />
-<Route path="/habitos" element={<Habitos />} />
-</Route> 
->>>>>>> origin/main
 
 
     <Route path="*" element={<Placeholder title="Página no encontrada"/>}/>
