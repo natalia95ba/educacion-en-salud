@@ -56,7 +56,7 @@ function Hero() {
       <div className="work-hero-image">
         <img
           src={`/images/talleres-bienestar.jpeg`}
-          alt="Espacio de trabajo preparado para una reunión"
+          alt="Espacio de trabajo preparado para una reunión."
         />
       </div>
 
