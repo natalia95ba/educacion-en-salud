@@ -27,7 +27,7 @@ export default function QuienesSomos() {
 
           <div className="about-photo">
             <img
-              src={`/images/juanma-desire.jpeg`}
+              src={`/images/juanma-desire.png`}
               alt="Juanma Jiménez y Desiré Flores"
             />
           </div>

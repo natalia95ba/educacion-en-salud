@@ -16,55 +16,41 @@ import "./css/Servicios.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
-const whatsappMessage =
-  "Buenas tardes, me gustaría solicitar una reunión gratuita";
-
-const whatsappUrl = `https://wa.me/644998302?text=${encodeURIComponent(
-  whatsappMessage
-)}`;
-
 const services = [
   {
     title: "Movimiento cotidiano",
     icon: Armchair,
     image: `/images/movimiento.jpeg`,
-    link: "/movimiento",
   },
   {
     title: "Fuerza y capacidad cardiovascular",
     icon: Dumbbell,
     image: `/images/fuerza.jpeg`,
-    link: "/fuerza",
   },
   {
     title: "Alimentación",
     icon: Apple,
     image: `/images/alimentacion.jpeg`,
-    link: "/alimentacion",
   },
   {
     title: "Calma y descanso",
     icon: Flower2,
     image: `/images/calma.jpeg`,
-    link: "/calma",
   },
   {
     title: "Hábitos",
     icon: CalendarCheck,
     image: `/images/habitos.jpeg`,
-    link: "/habitos",
   },
 ];
 
-
 function Hero() {
-
   const whatsappMessage =
-  "Buenas tardes, me gustaría conocer vuestras propuestas";
+    "Buenas tardes, me gustaría conocer vuestras propuestas";
 
-const whatsappUrl = `https://wa.me/644998302?text=${encodeURIComponent(
-  whatsappMessage
-)}`;
+  const whatsappUrl = `https://wa.me/644998302?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
 
   return (
     <section className="services-hero">
@@ -92,9 +78,12 @@ const whatsappUrl = `https://wa.me/644998302?text=${encodeURIComponent(
           organización.
         </p>
 
-        <a href={whatsappUrl}
-  target="_blank"
-  rel="noopener noreferrer"  className="services-primary-button">
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="services-primary-button"
+        >
           Conocer nuestras propuestas
           <ArrowRight size={23} />
         </a>
@@ -111,8 +100,7 @@ function ServiceCards() {
           const Icon = service.icon;
 
           return (
-            <a
-              href={service.link}
+            <div
               className="services-card"
               key={service.title}
             >
@@ -125,9 +113,12 @@ function ServiceCards() {
               </div>
 
               <div className="services-card-image">
-                <img src={service.image} alt={service.title} />
+                <img
+                  src={service.image}
+                  alt={service.title}
+                />
               </div>
-            </a>
+            </div>
           );
         })}
       </div>
@@ -173,7 +164,8 @@ export default function Servicios() {
         <ServiceCards />
         <Introduction />
       </main>
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }
