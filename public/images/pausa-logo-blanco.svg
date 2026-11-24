@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420"><g transform="translate(20 8) scale(1.02)"><path d="M 208 350 C 92 350 38 274 38 186 C 38 84 116 34 207 34 C 280 34 331 78 355 131 C 320 76 271 61 207 61 C 129 61 65 114 65 189 C 65 269 116 326 208 350 Z" fill="#FFFFFF"/><rect x="135" y="135" width="37" height="105" rx="12" fill="#FFFFFF"/><rect x="204" y="135" width="37" height="105" rx="12" fill="#FFFFFF"/><path d="M116 264 Q190 340 268 264" stroke="#FFFFFF" stroke-width="19" stroke-linecap="round" fill="none"/></g><g transform="translate(460 90) scale(1.12)"><g stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <path d="M0 172 V0 H78 Q151 0 151 61 Q151 123 78 123 H0"/>
+ <path d="M190 172 L266 0 L342 172"/>
+ <path d="M380 0 V111 Q380 178 448 178 Q516 178 516 111 V0"/>
+ <path d="M682 15 Q654 -5 619 1 Q567 8 567 48 Q567 86 623 92 Q692 99 692 135 Q692 177 632 178 Q591 179 559 155"/>
+ <path d="M733 172 L809 0 L885 172"/>
+ </g></g><text x="463" y="365" fill="#FFFFFF" font-family="DejaVu Sans,Arial,sans-serif" font-size="44" letter-spacing="10">EDUCACIÓN EN SALUD</text></svg>

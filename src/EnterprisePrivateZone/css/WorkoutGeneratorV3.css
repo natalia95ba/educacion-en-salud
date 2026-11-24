@@ -1,0 +1,40 @@
+.v3-generator, .v3-program, .v3-fields, .v3-session-body {
+  display: grid;
+  gap: var(--platform-space-3);
+  min-width: 0;
+}
+.v3-generator { container: workout-v3 / inline-size; }
+.v3-card {
+  min-width: 0;
+  padding: var(--platform-space-3);
+  border: 1px solid var(--platform-border);
+  border-radius: var(--platform-radius);
+  background: var(--platform-white);
+}
+.v3-generator :is(h2, h3, h4, p) { margin: 0 0 var(--platform-space-2); }
+.v3-generator button { margin: var(--platform-space-2) var(--platform-space-2) 0 0; }
+.v3-generator button[type="submit"] { background: var(--platform-accent); color: white; }
+.v3-fields { margin: var(--platform-space-2) 0; }
+.v3-field { display: grid; gap: .35rem; min-width: 0; font-weight: 650; }
+.v3-field select { width: 100%; padding: .45rem; border: 1px solid var(--platform-border); border-radius: var(--platform-radius-small); }
+.v3-generator fieldset { min-inline-size: 0; border: 1px solid var(--platform-border); border-radius: var(--platform-radius-small); }
+.v3-check { display: flex; gap: .55rem; align-items: center; min-height: var(--platform-target); }
+.v3-generator details > summary {
+  min-height: var(--platform-target);
+  display: flex;
+  grid-template-columns: none;
+  justify-content: flex-start;
+  padding: .35rem .55rem;
+  color: var(--platform-brand);
+  font-weight: 700;
+}
+.v3-generator details > summary::before { content: "›"; background: none; height: auto; }
+.v3-generator details[open] > summary::before { transform: rotate(90deg); }
+.v3-session-body ul { margin: 0; padding-inline-start: 1.35rem; }
+.v3-session-body li > span { display: block; }
+.v3-session-body .v3-exercise { list-style: none; padding: 0; }
+.v3-session-body h4 { color: var(--platform-brand); }
+@container workout-v3 (min-width: 640px) {
+  .v3-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .v3-fields fieldset { grid-column: 1 / -1; }
+}

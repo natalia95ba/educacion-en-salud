@@ -1,0 +1,456 @@
+.movement-page {
+  --gutter: clamp(14px, 1.7vw, 30px);
+  --outer-gutter: clamp(14px, 1.95vw, 34px);
+  --teal: #08766d;
+  position: relative;
+  isolation: isolate;
+  color: #0b1c31;
+}
+
+.movement-waves {
+  position: absolute;
+  inset: auto 0 0;
+  width: 100%;
+  height: clamp(38px, 7.65vw, 128px);
+  pointer-events: none;
+}
+
+.movement-page .pausa-sidebar {
+  width: clamp(185px, 15vw, 252px);
+  min-width: 0;
+  padding: clamp(24px, 2.6vw, 44px) clamp(10px, .9vw, 16px) 24px;
+  background: linear-gradient(135deg, #fff, #f9fbfb);
+}
+
+.movement-page .pausa-logo {
+  margin: 0 0 clamp(25px, 2.65vw, 45px);
+  color: #09675f;
+  font-size: clamp(36px, 3vw, 51px);
+}
+
+.movement-page .pausa-logo div {
+  width: 2.35em;
+  height: .48em;
+  border-bottom: .17em solid #00a99b;
+}
+
+.movement-page .pausa-nav {
+  min-height: clamp(51px, 4.3vw, 73px);
+  gap: clamp(10px, 1.35vw, 23px);
+  border-radius: 19px;
+  color: inherit;
+  font-size: clamp(16px, 1.2vw, 20px);
+  line-height: 1.14;
+}
+
+.movement-page .pausa-nav svg {
+  width: clamp(26px, 2.25vw, 38px);
+  height: auto;
+}
+
+.movement-page .pausa-nav.selected {
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(115deg, #009d91, #056963);
+  box-shadow: 0 4px 12px #08766d19;
+}
+
+.movement-page .pausa-content {
+  padding: 0 var(--outer-gutter) clamp(45px, 3.5vw, 62px) var(--gutter);
+  background: radial-gradient(ellipse at 55% 0%, #e1f6f5, transparent 65%), #f6fbfb;
+}
+
+.movement-page .movement-heading {
+  position: relative;
+  isolation: isolate;
+  gap: clamp(14px, 1.55vw, 26px);
+  min-height: clamp(174px, 13.85vw, 240px);
+  margin: 0 calc(-1 * var(--outer-gutter)) 0 calc(-1 * var(--gutter));
+  padding: 24px clamp(22px, 3.35vw, 57px);
+  overflow: hidden;
+  background: linear-gradient(120deg, #e1f6f5, #f6fbfb 49%, #d7f2f1);
+}
+
+.movement-hero-image {
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 0 auto;
+  width: 51.5%;
+  background: linear-gradient(145deg, #c9f0ee, #9edcda);
+  clip-path: ellipse(100% 145% at 100% 100%);
+  clip-path: shape(from 19% 0%, hline to 100%, vline to 100%, hline to 0%, curve to 16% 44% with 10% 85% / 16% 65%, curve to 19% 0% with 16% 27% / 17% 13%, close);
+}
+
+.movement-hero-photo {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 98%;
+  height: 100%;
+  clip-path: ellipse(100% 145% at 100% 100%);
+  clip-path: shape(from 29% 0%, hline to 100%, vline to 100%, hline to 0%, curve to 21% 42% with 13% 91% / 18% 67%, curve to 29% 0% with 23% 23% / 26% 10%, close);
+}
+
+.movement-hero-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 68%;
+  transform: scaleX(-1);
+}
+
+.movement-heading .pausa-heading-icon {
+  width: clamp(64px, 6.4vw, 108px);
+  height: clamp(64px, 6.4vw, 108px);
+  border-radius: clamp(17px, 1.5vw, 26px);
+  background: linear-gradient(135deg, #009f93, #075b56);
+  transform: translateY(-6px);
+}
+
+.movement-heading .pausa-heading-icon svg,
+.movement-icon svg {
+  width: 62%;
+  height: 62%;
+}
+
+.movement-heading-copy small {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--teal);
+  font-size: clamp(18px, 1.5vw, 25px);
+}
+
+.movement-page .movement-heading h1 {
+  font-size: clamp(27px, 3.15vw, 55px);
+  letter-spacing: -.035em;
+}
+
+.movement-heading h1::after {
+  display: block;
+  width: clamp(70px, 6.6vw, 112px);
+  height: 7px;
+  margin: 8px 0;
+  border-radius: 50%;
+  background: #00a99b;
+  content: "";
+}
+
+.movement-page .movement-heading p {
+  color: inherit;
+  font-size: clamp(16px, 1.4vw, 24px);
+  line-height: 1.25;
+}
+
+.movement-experiences {
+  display: grid;
+  gap: clamp(9px, .65vw, 11px);
+}
+
+.movement-experience {
+  min-width: 0;
+  border: 1px solid #cce7e7;
+  border-radius: clamp(18px, 1.7vw, 30px);
+  background: linear-gradient(125deg, #fff 55%, #fbfdfd);
+  box-shadow: 0 3px 11px #0d777427;
+}
+
+.movement-experience > summary {
+  display: grid;
+  grid-template-columns: 23% 1px clamp(49px, 4.55vw, 78px) minmax(0, 1fr) auto;
+  gap: clamp(10px, 1.45vw, 25px);
+  align-items: center;
+  padding: clamp(7px, .48vw, 8px) clamp(12px, 1.65vw, 28px) clamp(7px, .48vw, 8px) clamp(8px, .65vw, 12px);
+  border-radius: inherit;
+  list-style: none;
+  cursor: pointer;
+}
+
+.movement-experience > summary::before {
+  grid-area: 1 / 2;
+  height: 60%;
+  background: #38968e;
+  content: "";
+}
+
+.movement-experience > summary::-webkit-details-marker {
+  display: none;
+}
+
+.movement-experience > summary:hover {
+  background: #f7fcfb;
+}
+
+.movement-experience > summary:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: -3px;
+}
+
+.movement-experience img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: clamp(72px, 6vw, 101px);
+  border-radius: clamp(12px, 1.25vw, 22px);
+  object-fit: cover;
+}
+
+.movement-experience:first-child img {
+  height: clamp(76px, 6.3vw, 106px);
+}
+
+.movement-icon,
+.movement-chevron {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  color: #086861;
+  background: linear-gradient(145deg, #e6f7f4, #cef0e9);
+}
+
+.movement-icon {
+  border-radius: clamp(12px, 1.2vw, 21px);
+}
+
+.movement-chevron {
+  width: clamp(34px, 3.05vw, 52px);
+  border-radius: 50%;
+}
+
+.movement-experience[open] .movement-chevron {
+  background: #bce8e1;
+  transform: rotate(180deg);
+}
+
+.movement-experience-copy {
+  display: grid;
+  gap: 5px;
+  font-size: clamp(16px, 1.25vw, 22px);
+  line-height: 1.25;
+}
+
+.movement-experience-copy strong {
+  font-size: clamp(19px, 1.9vw, 33px);
+  line-height: 1.12;
+  letter-spacing: -.024em;
+}
+
+.movement-highlights {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr) minmax(0, 1fr);
+  gap: clamp(10px, 1.2vw, 21px);
+  margin-top: clamp(20px, 2.1vw, 36px);
+}
+
+.movement-highlight {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(12px, 1.65vw, 28px);
+  min-height: clamp(86px, 6.15vw, 104px);
+  padding: 12px clamp(12px, 1.35vw, 23px);
+  border: 1px solid #d6efed;
+  border-radius: 18px;
+  background: linear-gradient(110deg, #e1f7f4, #daf3f2);
+  color: inherit;
+  text-decoration: none;
+}
+
+.movement-highlight:hover,
+.movement-highlight:focus-visible {
+  background: #d1efeb;
+}
+
+.movement-highlight svg {
+  width: clamp(32px, 3.6vw, 61px);
+  height: auto;
+  color: var(--teal);
+  stroke-width: 1.7;
+}
+
+.movement-highlight .movement-highlight-arrow {
+  width: clamp(20px, 1.65vw, 28px);
+  stroke-width: 2.7;
+}
+
+.movement-highlight strong,
+.movement-highlight span {
+  display: block;
+}
+
+.movement-highlight strong {
+  margin-bottom: 4px;
+  font-size: clamp(17px, 1.45vw, 25px);
+  letter-spacing: -.02em;
+}
+
+.movement-highlight span {
+  font-size: clamp(16px, 1.08vw, 19px);
+  line-height: 1.2;
+}
+
+.movement-example,
+.movement-tip {
+  margin: 0 15px 11px;
+  padding: 9px 16px 11px;
+  border-radius: 24px;
+  background: linear-gradient(115deg, #eaf6f3, #dff2ef);
+}
+
+.movement-example h3,
+.movement-example h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.movement-example-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(16px, 2vw, 40px);
+  margin-top: 8px;
+  padding: 10px clamp(12px, 2vw, 38px);
+  border-radius: 16px;
+  background: #ffffff70;
+}
+
+.movement-video strong,
+.movement-actions h4 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.movement-video strong,
+.movement-video p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.movement-video iframe {
+  display: block;
+  width: 100%;
+  height: clamp(175px, 12vw, 230px);
+  margin-top: 10px;
+  border: 0;
+  border-radius: 12px;
+  background: #102c39;
+}
+
+.movement-actions svg {
+  flex-shrink: 0;
+  color: var(--pausa-green);
+}
+
+.movement-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 8px 0 22px;
+}
+
+.movement-tiles > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px;
+  border: 1px solid #d6e9e7;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.movement-tiles p,
+.movement-resources {
+  margin-bottom: 0;
+}
+
+.movement-tiles p {
+  margin-top: 0;
+}
+
+.movement-tiles strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+@media (max-width: 1180px) {
+  .movement-hero-image {
+    width: 40%;
+  }
+
+  .movement-hero-photo {
+    mask-image: linear-gradient(to left, #000 64%, transparent);
+  }
+}
+
+@media (max-width: 1050px) {
+  .movement-example-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .movement-video iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 850px) {
+  .movement-highlights {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .movement-page .pausa-sidebar {
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .movement-page .pausa-logo {
+    margin-bottom: 12px;
+    font-size: 30px;
+  }
+
+  .movement-page .pausa-nav {
+    font-size: 14px;
+  }
+
+  .movement-page .movement-heading {
+    min-height: 0;
+    padding: 24px var(--gutter) 112px;
+    margin-bottom: 14px;
+  }
+
+  .movement-hero-image {
+    inset: auto 0 0;
+    width: 100%;
+    height: 97px;
+    clip-path: none;
+  }
+
+  .movement-hero-photo {
+    width: 100%;
+    mask-image: none;
+    clip-path: none;
+  }
+
+  .movement-hero-photo img {
+    object-position: center 66%;
+  }
+
+  .movement-experience > summary {
+    grid-template-columns: clamp(65px, 20vw, 120px) minmax(0, 1fr) auto;
+  }
+
+  .movement-experience > summary::before,
+  .movement-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .movement-tiles {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,599 @@
+
+/* =========================================
+   PAUSA - LOGIN EMPRESAS
+========================================= */
+
+.pausa-login {
+  --pausa-navy: #102c42;
+  --pausa-dark: #073b46;
+  --pausa-teal: #079b94;
+  --pausa-teal-dark: #087c78;
+  --pausa-mint: #d9f5f2;
+
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--pausa-mint);
+  font-family: inherit;
+}
+
+/* =========================================
+   PANEL IZQUIERDO
+========================================= */
+
+.pausa-login__welcome {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #f1f7f5;
+}
+
+.pausa-login__photo {
+  position: absolute;
+  inset: 0;
+  background-image: url("/eduacion-en-salud/images/enterprise-hero.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pausa-login__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.pausa-login__welcome-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 55px clamp(35px, 7vw, 110px);
+}
+
+/* Logo */
+
+.pausa-login__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 65px;
+  text-decoration: none;
+  color: var(--pausa-dark);
+}
+
+.pausa-login__brand-symbol {
+  width: 68px;
+  height: 68px;
+  border: 5px solid var(--pausa-teal);
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pausa-login__brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.pausa-login__brand-text strong {
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -2px;
+  font-weight: 700;
+}
+
+.pausa-login__brand-text span {
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 0.2px;
+}
+
+/* Mensaje */
+
+.pausa-login__intro h1 {
+  color: var(--pausa-navy);
+  font-size: clamp(38px, 4vw, 56px);
+  line-height: 1.12;
+  letter-spacing: -1.8px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.pausa-login__intro h1 span {
+  color: var(--pausa-teal);
+}
+
+.pausa-login__underline {
+  width: 80px;
+  height: 7px;
+  border-radius: 20px;
+  background: var(--pausa-teal);
+  margin: 27px 0;
+}
+
+.pausa-login__intro p {
+  max-width: 510px;
+  color: #172d3b;
+  font-size: clamp(19px, 2vw, 25px);
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Hábitos */
+
+.pausa-login__habits {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 42px;
+  max-width: 560px;
+}
+
+.pausa-login__habit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 9px;
+}
+
+.pausa-login__habit-icon {
+  width: 76px;
+  height: 76px;
+  background: rgba(216, 245, 241, 0.96);
+  color: #07505a;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pausa-login__habit span {
+  color: var(--pausa-navy);
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+/* =========================================
+   PANEL DERECHO
+========================================= */
+
+.pausa-login__form-panel {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 75px 35px;
+  background: linear-gradient(
+    135deg,
+    #d9f6f3 0%,
+    #c9f0ed 55%,
+    #a9e6df 100%
+  );
+}
+
+.pausa-login__decoration {
+  position: absolute;
+  pointer-events: none;
+}
+
+.pausa-login__decoration--top {
+  width: 390px;
+  height: 390px;
+  top: -230px;
+  right: -140px;
+  border-radius: 50%;
+  border: 45px solid rgba(7, 155, 148, 0.13);
+}
+
+.pausa-login__decoration--bottom {
+  width: 460px;
+  height: 460px;
+  bottom: -300px;
+  right: -130px;
+  border-radius: 50%;
+  background: rgba(7, 155, 148, 0.12);
+}
+
+/* Tarjeta */
+
+.pausa-login__card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 615px;
+  background: #fff;
+  border-radius: 36px;
+  padding: 65px 48px 38px;
+  box-shadow: 0 20px 60px rgba(0, 80, 80, 0.12);
+}
+
+/* Icono usuario */
+
+.pausa-login__user-icon {
+  position: absolute;
+  top: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 112px;
+  height: 112px;
+  border: 4px solid white;
+  border-radius: 50%;
+  background: #e2f8f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #07505a;
+}
+
+/* Cabecera */
+
+.pausa-login__header {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.pausa-login__header h2 {
+  color: var(--pausa-navy);
+  font-size: clamp(29px, 3vw, 42px);
+  font-weight: 800;
+  letter-spacing: -1.3px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.pausa-login__header h2 span {
+  color: var(--pausa-teal);
+}
+
+.pausa-login__header p {
+  color: #172d3b;
+  font-size: 19px;
+  line-height: 1.35;
+  margin: 12px 0 0;
+}
+
+/* Formulario */
+
+.pausa-login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.pausa-login__field label {
+  display: block;
+  color: var(--pausa-navy);
+  font-size: 17px;
+  font-weight: 750;
+  margin-bottom: 9px;
+}
+
+.pausa-login__input-wrapper {
+  position: relative;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #d5dce2;
+  border-radius: 12px;
+  background: white;
+  color: var(--pausa-navy);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pausa-login__input-wrapper:focus-within {
+  border-color: var(--pausa-teal);
+  box-shadow: 0 0 0 3px rgba(7, 155, 148, 0.1);
+}
+
+.pausa-login__input-wrapper > svg {
+  flex-shrink: 0;
+  margin-left: 19px;
+}
+
+.pausa-login__input-wrapper input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0 15px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--pausa-navy);
+  font: inherit;
+  font-size: 16px;
+}
+
+.pausa-login__input-wrapper input::placeholder {
+  color: #77858d;
+  opacity: 1;
+}
+
+.pausa-login__toggle-password {
+  flex-shrink: 0;
+  margin-right: 17px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--pausa-navy);
+  cursor: pointer;
+}
+
+.pausa-login__toggle-password:hover {
+  color: var(--pausa-teal);
+}
+
+/* Opciones */
+
+.pausa-login__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 1px;
+}
+
+.pausa-login__remember {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--pausa-navy);
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.pausa-login__remember input {
+  width: 23px;
+  height: 23px;
+  margin: 0;
+  accent-color: var(--pausa-teal);
+  cursor: pointer;
+}
+
+.pausa-login__forgot {
+  color: var(--pausa-teal-dark);
+  font-size: 15px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.pausa-login__forgot:hover {
+  text-decoration: underline;
+}
+
+/* Botón */
+
+.pausa-login__submit {
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 4px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 17px;
+  background: linear-gradient(100deg, #079b94, #087c78);
+  color: white;
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 750;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
+  box-shadow: 0 8px 20px rgba(7, 143, 137, 0.15);
+}
+
+.pausa-login__submit:hover {
+  filter: brightness(0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(7, 143, 137, 0.22);
+}
+
+.pausa-login__submit:active {
+  transform: translateY(0);
+}
+
+/* Footer */
+
+.pausa-login__footer {
+  border-top: 1px solid #dce4e6;
+  margin-top: 30px;
+  padding-top: 18px;
+  text-align: center;
+}
+
+.pausa-login__footer p {
+  color: var(--pausa-navy);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+  .pausa-login__welcome-content {
+    padding: 45px 35px;
+  }
+
+  .pausa-login__brand {
+    margin-bottom: 45px;
+  }
+
+  .pausa-login__brand-text strong {
+    font-size: 39px;
+  }
+
+  .pausa-login__habit-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pausa-login__habit-icon svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .pausa-login__habit span {
+    font-size: 11px;
+  }
+
+  .pausa-login__card {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .pausa-login {
+    grid-template-columns: 1fr;
+  }
+
+  .pausa-login__welcome {
+    min-height: auto;
+  }
+
+  .pausa-login__welcome-content {
+    max-width: 650px;
+    padding: 45px 30px 55px;
+  }
+
+  .pausa-login__brand {
+    margin-bottom: 40px;
+  }
+
+  .pausa-login__intro h1 {
+    font-size: 42px;
+  }
+
+  .pausa-login__habits {
+    margin-top: 32px;
+  }
+
+  .pausa-login__form-panel {
+    min-height: auto;
+    padding: 85px 25px 65px;
+  }
+
+  .pausa-login__card {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pausa-login__welcome-content {
+    padding: 35px 23px 40px;
+  }
+
+  .pausa-login__brand-symbol {
+    width: 55px;
+    height: 55px;
+    font-size: 34px;
+  }
+
+  .pausa-login__brand-text strong {
+    font-size: 35px;
+  }
+
+  .pausa-login__brand-text span {
+    font-size: 14px;
+  }
+
+  .pausa-login__intro h1 {
+    font-size: 36px;
+  }
+
+  .pausa-login__intro p {
+    font-size: 18px;
+  }
+
+  .pausa-login__habits {
+    gap: 7px;
+  }
+
+  .pausa-login__habit-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+  }
+
+  .pausa-login__habit-icon svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pausa-login__habit span {
+    font-size: 10px;
+  }
+
+  .pausa-login__form-panel {
+    padding: 75px 15px 45px;
+  }
+
+  .pausa-login__card {
+    padding: 65px 22px 28px;
+    border-radius: 26px;
+  }
+
+  .pausa-login__header h2 {
+    font-size: 29px;
+  }
+
+  .pausa-login__header p {
+    font-size: 16px;
+  }
+
+  .pausa-login__field label {
+    font-size: 15px;
+  }
+
+  .pausa-login__input-wrapper {
+    height: 52px;
+  }
+
+  .pausa-login__input-wrapper input {
+    font-size: 14px;
+    padding-left: 11px;
+  }
+
+  .pausa-login__options {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pausa-login__forgot {
+    margin-left: 33px;
+  }
+
+  .pausa-login__submit {
+    min-height: 57px;
+    font-size: 18px;
+  }
+
+  .pausa-login__footer p {
+    font-size: 13px;
+  }
+
+  .desktop-break {
+    display: none;
+  }
+}

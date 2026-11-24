@@ -1,0 +1,2232 @@
+{
+  "principiante_sin_material": {
+    "version": "3.0.0",
+    "estado": "listo",
+    "cuestionario": {
+      "objetivo": "bienestar",
+      "dias": 2,
+      "nivel": "principiante",
+      "lugar": "casa",
+      "material": [],
+      "contraindicacion": "no",
+      "modalidad": "caminar"
+    },
+    "sesiones": [
+      {
+        "letra": "A",
+        "tipo": "mixta",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "sentadilla_silla",
+            "nombre": "Sentarse y levantarse de una silla estable",
+            "patron": "sentadilla",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Controla el descenso y levántate sin impulsarte.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "bisagra_pared",
+            "nombre": "Bisagra de cadera hacia la pared",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva las caderas atrás con columna cómoda.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "flexion_pared",
+            "nombre": "Flexión en pared",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              20
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_isometrico_autorresistencia",
+            "nombre": "Remo unilateral con autorresistencia",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Una mano resiste el tirón del otro brazo; resistencia graduable y sin dolor.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          }
+        ],
+        "cardio": {
+          "modalidad": "caminar",
+          "formato": "cambios_ritmo",
+          "repeticiones": 4,
+          "trabajo_seg": 180,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            4,
+            5
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "La tracción por autorresistencia no equivale a un remo o jalón con carga externa.",
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 46.8,
+        "alternativa_expres": {
+          "letra": "A",
+          "tipo": "mixta",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "sentadilla_silla",
+              "nombre": "Sentarse y levantarse de una silla estable",
+              "patron": "sentadilla",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 6.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Controla el descenso y levántate sin impulsarte.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "bisagra_pared",
+              "nombre": "Bisagra de cadera hacia la pared",
+              "patron": "bisagra",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 6.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Lleva las caderas atrás con columna cómoda.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            }
+          ],
+          "cardio": {
+            "modalidad": "caminar",
+            "formato": "cambios_ritmo",
+            "repeticiones": 2,
+            "trabajo_seg": 180,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              4,
+              5
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [
+            "No hay estímulo de tracción con carga equivalente sin equipamiento adecuado."
+          ],
+          "duracion_estimada_min": 21.3
+        }
+      },
+      {
+        "letra": "B",
+        "tipo": "mixta",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "sentadilla_dividida_apoyo",
+            "nombre": "Sentadilla dividida con apoyo",
+            "patron": "unilateral",
+            "series": 2,
+            "rango": [
+              6,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Sujétate a una pared para equilibrarte; repite por pierna.",
+            "por_lado": true,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "bisagra_pared",
+            "nombre": "Bisagra de cadera hacia la pared",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva las caderas atrás con columna cómoda.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "flexion_pared",
+            "nombre": "Flexión en pared",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              20
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_isometrico_autorresistencia",
+            "nombre": "Remo unilateral con autorresistencia",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 6.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Una mano resiste el tirón del otro brazo; resistencia graduable y sin dolor.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          }
+        ],
+        "cardio": {
+          "modalidad": "caminar",
+          "formato": "cambios_ritmo",
+          "repeticiones": 4,
+          "trabajo_seg": 180,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            4,
+            5
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "La tracción por autorresistencia no equivale a un remo o jalón con carga externa.",
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 47.5,
+        "alternativa_expres": {
+          "letra": "B",
+          "tipo": "mixta",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "sentadilla_dividida_apoyo",
+              "nombre": "Sentadilla dividida con apoyo",
+              "patron": "unilateral",
+              "series": 2,
+              "rango": [
+                6,
+                12
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 6.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Sujétate a una pared para equilibrarte; repite por pierna.",
+              "por_lado": true,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "bisagra_pared",
+              "nombre": "Bisagra de cadera hacia la pared",
+              "patron": "bisagra",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 6.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Lleva las caderas atrás con columna cómoda.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            }
+          ],
+          "cardio": {
+            "modalidad": "caminar",
+            "formato": "cambios_ritmo",
+            "repeticiones": 2,
+            "trabajo_seg": 180,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              4,
+              5
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [
+            "No hay estímulo de tracción con carga equivalente sin equipamiento adecuado."
+          ],
+          "duracion_estimada_min": 21.9
+        }
+      }
+    ],
+    "orientaciones": [
+      "Puedes distribuir las sesiones según tu semana; deja recuperación suficiente entre esfuerzos exigentes.",
+      "Los descansos son orientativos: prioriza calidad y técnica.",
+      "Cuando completes el extremo alto de repeticiones en todas las series con buena técnica y RPE adecuado, aumenta ligeramente la carga si puedes.",
+      "La sesión exprés ayuda a mantener continuidad, pero no equivale a todo el volumen de la sesión habitual."
+    ],
+    "avisos_globales": []
+  },
+  "hipertrofia_intermedio_gimnasio": {
+    "version": "3.0.0",
+    "estado": "listo",
+    "cuestionario": {
+      "objetivo": "hipertrofia",
+      "dias": 3,
+      "nivel": "intermedio",
+      "lugar": "gimnasio",
+      "contraindicacion": "no",
+      "modalidad": "caminar",
+      "material": [
+        "banco",
+        "bandas",
+        "barra_discos",
+        "gimnasio",
+        "kettlebell",
+        "mancuernas",
+        "trx"
+      ]
+    },
+    "sesiones": [
+      {
+        "letra": "A",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "prensa",
+            "nombre": "Prensa de piernas",
+            "patron": "sentadilla",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y rango cómodo.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "curl_femoral",
+            "nombre": "Curl femoral en máquina",
+            "patron": "bisagra",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta el recorrido a la máquina.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "press_pecho_maquina",
+            "nombre": "Press de pecho en máquina",
+            "patron": "empuje",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y agarres.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_polea",
+            "nombre": "Remo sentado en polea",
+            "patron": "traccion",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Evita impulsarte con el tronco.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "pallof",
+            "nombre": "Pallof press en polea",
+            "patron": "core",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Resiste la rotación; por lado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          },
+          {
+            "ejercicio_id": "step_up_bajo",
+            "nombre": "Subida a cajón bajo",
+            "patron": "unilateral",
+            "series": 3,
+            "rango": [
+              8,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cajón estable; por pierna.",
+            "por_lado": true,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 47.6,
+        "alternativa_expres": {
+          "letra": "A",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "prensa",
+              "nombre": "Prensa de piernas",
+              "patron": "sentadilla",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y rango cómodo.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "curl_femoral",
+              "nombre": "Curl femoral en máquina",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta el recorrido a la máquina.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "press_pecho_maquina",
+              "nombre": "Press de pecho en máquina",
+              "patron": "empuje",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y agarres.",
+              "por_lado": false,
+              "musculo_principal": "pecho_triceps",
+              "musculo_secundario": "hombros"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 17.9
+        }
+      },
+      {
+        "letra": "B",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "step_up_bajo",
+            "nombre": "Subida a cajón bajo",
+            "patron": "unilateral",
+            "series": 3,
+            "rango": [
+              8,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cajón estable; por pierna.",
+            "por_lado": true,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "curl_femoral",
+            "nombre": "Curl femoral en máquina",
+            "patron": "bisagra",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta el recorrido a la máquina.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "press_pecho_maquina",
+            "nombre": "Press de pecho en máquina",
+            "patron": "empuje",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y agarres.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "jalon_pecho",
+            "nombre": "Jalón al pecho",
+            "patron": "traccion",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva la barra al pecho sin tirar de la nuca.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "press_hombro_maquina",
+            "nombre": "Press de hombros en máquina",
+            "patron": "empuje_vertical",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Ajusta el asiento y evita dolor.",
+            "por_lado": false,
+            "musculo_principal": "hombros",
+            "musculo_secundario": "triceps"
+          },
+          {
+            "ejercicio_id": "farmer_carry",
+            "nombre": "Paseo del granjero",
+            "patron": "core",
+            "series": 3,
+            "rango": [
+              20,
+              50
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Distancia en metros, carga equilibrada y espacio despejado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [],
+        "duracion_estimada_min": 49.6,
+        "alternativa_expres": {
+          "letra": "B",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "step_up_bajo",
+              "nombre": "Subida a cajón bajo",
+              "patron": "unilateral",
+              "series": 3,
+              "rango": [
+                8,
+                12
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Cajón estable; por pierna.",
+              "por_lado": true,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "curl_femoral",
+              "nombre": "Curl femoral en máquina",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta el recorrido a la máquina.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "press_pecho_maquina",
+              "nombre": "Press de pecho en máquina",
+              "patron": "empuje",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y agarres.",
+              "por_lado": false,
+              "musculo_principal": "pecho_triceps",
+              "musculo_secundario": "hombros"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 19.2
+        }
+      },
+      {
+        "letra": "C",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "prensa",
+            "nombre": "Prensa de piernas",
+            "patron": "sentadilla",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y rango cómodo.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "step_up_bajo",
+            "nombre": "Subida a cajón bajo",
+            "patron": "unilateral",
+            "series": 3,
+            "rango": [
+              8,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cajón estable; por pierna.",
+            "por_lado": true,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "curl_femoral",
+            "nombre": "Curl femoral en máquina",
+            "patron": "bisagra",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta el recorrido a la máquina.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "remo_polea",
+            "nombre": "Remo sentado en polea",
+            "patron": "traccion",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Evita impulsarte con el tronco.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "press_pecho_maquina",
+            "nombre": "Press de pecho en máquina",
+            "patron": "empuje",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y agarres.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "farmer_carry",
+            "nombre": "Paseo del granjero",
+            "patron": "core",
+            "series": 3,
+            "rango": [
+              20,
+              50
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Distancia en metros, carga equilibrada y espacio despejado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [],
+        "duracion_estimada_min": 51.1,
+        "alternativa_expres": {
+          "letra": "C",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "prensa",
+              "nombre": "Prensa de piernas",
+              "patron": "sentadilla",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y rango cómodo.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "step_up_bajo",
+              "nombre": "Subida a cajón bajo",
+              "patron": "unilateral",
+              "series": 3,
+              "rango": [
+                8,
+                12
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Cajón estable; por pierna.",
+              "por_lado": true,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "curl_femoral",
+              "nombre": "Curl femoral en máquina",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta el recorrido a la máquina.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 19.2
+        }
+      }
+    ],
+    "orientaciones": [
+      "Puedes distribuir las sesiones según tu semana; deja recuperación suficiente entre esfuerzos exigentes.",
+      "Los descansos son orientativos: prioriza calidad y técnica.",
+      "Cuando completes el extremo alto de repeticiones en todas las series con buena técnica y RPE adecuado, aumenta ligeramente la carga si puedes.",
+      "La sesión exprés ayuda a mantener continuidad, pero no equivale a todo el volumen de la sesión habitual."
+    ],
+    "avisos_globales": []
+  },
+  "avanzado_sin_material": {
+    "version": "3.0.0",
+    "estado": "listo",
+    "cuestionario": {
+      "objetivo": "hipertrofia",
+      "dias": 1,
+      "nivel": "avanzado",
+      "lugar": "casa",
+      "material": [],
+      "contraindicacion": "no",
+      "modalidad": "caminar"
+    },
+    "sesiones": [
+      {
+        "letra": "A",
+        "tipo": "mixta",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "sentadilla_silla",
+            "nombre": "Sentarse y levantarse de una silla estable",
+            "patron": "sentadilla",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 8,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Controla el descenso y levántate sin impulsarte.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "bisagra_pared",
+            "nombre": "Bisagra de cadera hacia la pared",
+            "patron": "bisagra",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 8,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva las caderas atrás con columna cómoda.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "flexion_pared",
+            "nombre": "Flexión en pared",
+            "patron": "empuje",
+            "series": 3,
+            "rango": [
+              8,
+              20
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 8,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_isometrico_autorresistencia",
+            "nombre": "Remo unilateral con autorresistencia",
+            "patron": "traccion",
+            "series": 3,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 8,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Una mano resiste el tirón del otro brazo; resistencia graduable y sin dolor.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          }
+        ],
+        "cardio": {
+          "modalidad": "caminar",
+          "formato": "cambios_ritmo",
+          "repeticiones": 2,
+          "trabajo_seg": 180,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            4,
+            5
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "La tracción por autorresistencia no equivale a un remo o jalón con carga externa.",
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 47.3,
+        "alternativa_expres": {
+          "letra": "A",
+          "tipo": "mixta",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "sentadilla_silla",
+              "nombre": "Sentarse y levantarse de una silla estable",
+              "patron": "sentadilla",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 8,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Controla el descenso y levántate sin impulsarte.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "bisagra_pared",
+              "nombre": "Bisagra de cadera hacia la pared",
+              "patron": "bisagra",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 8,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Lleva las caderas atrás con columna cómoda.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            }
+          ],
+          "cardio": {
+            "modalidad": "caminar",
+            "formato": "cambios_ritmo",
+            "repeticiones": 2,
+            "trabajo_seg": 180,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              4,
+              5
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Camina a paso vivo durante el trabajo y cómodo en la recuperación."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [
+            "No hay estímulo de tracción con carga equivalente sin equipamiento adecuado."
+          ],
+          "duracion_estimada_min": 21.3
+        }
+      }
+    ],
+    "orientaciones": [
+      "Puedes distribuir las sesiones según tu semana; deja recuperación suficiente entre esfuerzos exigentes.",
+      "Los descansos son orientativos: prioriza calidad y técnica.",
+      "Cuando completes el extremo alto de repeticiones en todas las series con buena técnica y RPE adecuado, aumenta ligeramente la carga si puedes.",
+      "La sesión exprés ayuda a mantener continuidad, pero no equivale a todo el volumen de la sesión habitual."
+    ],
+    "avisos_globales": [
+      "Sin cargas externas, el estímulo para hipertrofia puede ser insuficiente, especialmente en niveles altos y tracción."
+    ]
+  },
+  "caco_novato": {
+    "version": "3.0.0",
+    "estado": "listo",
+    "cuestionario": {
+      "objetivo": "cardio",
+      "dias": 3,
+      "nivel": "intermedio",
+      "lugar": "casa",
+      "material": [],
+      "contraindicacion": "no",
+      "modalidad": "caco",
+      "capacidad_correr": "menos_5"
+    },
+    "sesiones": [
+      {
+        "letra": "A",
+        "tipo": "mixta",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "sentadilla_silla",
+            "nombre": "Sentarse y levantarse de una silla estable",
+            "patron": "sentadilla",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Controla el descenso y levántate sin impulsarte.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "bisagra_pared",
+            "nombre": "Bisagra de cadera hacia la pared",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva las caderas atrás con columna cómoda.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "flexion_pared",
+            "nombre": "Flexión en pared",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              20
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_isometrico_autorresistencia",
+            "nombre": "Remo unilateral con autorresistencia",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Una mano resiste el tirón del otro brazo; resistencia graduable y sin dolor.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          }
+        ],
+        "cardio": {
+          "modalidad": "caco",
+          "formato": "intervalos_caminar_correr",
+          "etapa": "c1",
+          "repeticiones": 8,
+          "trabajo_seg": 60,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            3,
+            5
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Alterna trote cómodo y caminata; no es un sprint. Avanza de etapa solo si la tolerancia lo permite."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "La tracción por autorresistencia no equivale a un remo o jalón con carga externa."
+        ],
+        "duracion_estimada_min": 50.8,
+        "alternativa_expres": {
+          "letra": "A",
+          "tipo": "mixta",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "sentadilla_silla",
+              "nombre": "Sentarse y levantarse de una silla estable",
+              "patron": "sentadilla",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Controla el descenso y levántate sin impulsarte.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "bisagra_pared",
+              "nombre": "Bisagra de cadera hacia la pared",
+              "patron": "bisagra",
+              "series": 2,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Lleva las caderas atrás con columna cómoda.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            }
+          ],
+          "cardio": {
+            "modalidad": "caco",
+            "formato": "intervalos_caminar_correr",
+            "etapa": "c1",
+            "repeticiones": 3,
+            "trabajo_seg": 60,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              3,
+              5
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Alterna trote cómodo y caminata; no es un sprint. Avanza de etapa solo si la tolerancia lo permite."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [
+            "No hay estímulo de tracción con carga equivalente sin equipamiento adecuado."
+          ],
+          "duracion_estimada_min": 20.3
+        }
+      },
+      {
+        "letra": "B",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "sentadilla_dividida_apoyo",
+            "nombre": "Sentadilla dividida con apoyo",
+            "patron": "unilateral",
+            "series": 2,
+            "rango": [
+              6,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Sujétate a una pared para equilibrarte; repite por pierna.",
+            "por_lado": true,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "bisagra_pared",
+            "nombre": "Bisagra de cadera hacia la pared",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Lleva las caderas atrás con columna cómoda.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "flexion_pared",
+            "nombre": "Flexión en pared",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              20
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_isometrico_autorresistencia",
+            "nombre": "Remo unilateral con autorresistencia",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Una mano resiste el tirón del otro brazo; resistencia graduable y sin dolor.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "dead_bug",
+            "nombre": "Dead bug",
+            "patron": "core",
+            "series": 2,
+            "rango": [
+              6,
+              12
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Alterna brazo y pierna opuestos manteniendo el tronco estable; por lado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "La tracción por autorresistencia no equivale a un remo o jalón con carga externa.",
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 28.4,
+        "alternativa_expres": {
+          "letra": "B",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "sentadilla_dividida_apoyo",
+              "nombre": "Sentadilla dividida con apoyo",
+              "patron": "unilateral",
+              "series": 3,
+              "rango": [
+                6,
+                12
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Sujétate a una pared para equilibrarte; repite por pierna.",
+              "por_lado": true,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "bisagra_pared",
+              "nombre": "Bisagra de cadera hacia la pared",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Lleva las caderas atrás con columna cómoda.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "flexion_pared",
+              "nombre": "Flexión en pared",
+              "patron": "empuje",
+              "series": 3,
+              "rango": [
+                8,
+                20
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Cuerpo alineado, acerca el pecho a la pared.",
+              "por_lado": false,
+              "musculo_principal": "pecho_triceps",
+              "musculo_secundario": "hombros"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [
+            "No hay estímulo de tracción con carga equivalente sin equipamiento adecuado."
+          ],
+          "duracion_estimada_min": 19.3
+        }
+      },
+      {
+        "letra": "C",
+        "tipo": "cardio",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Comienza caminando o pedaleando muy suave",
+            "segundos": 300
+          },
+          {
+            "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [],
+        "cardio": {
+          "modalidad": "caco",
+          "formato": "intervalos_caminar_correr",
+          "etapa": "c1",
+          "repeticiones": 12,
+          "trabajo_seg": 60,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            3,
+            5
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Alterna trote cómodo y caminata; no es un sprint. Avanza de etapa solo si la tolerancia lo permite."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 47.0,
+        "alternativa_expres": {
+          "letra": "C",
+          "tipo": "cardio",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Comienza caminando o pedaleando muy suave",
+              "segundos": 180
+            },
+            {
+              "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [],
+          "cardio": {
+            "modalidad": "caco",
+            "formato": "intervalos_caminar_correr",
+            "etapa": "c1",
+            "repeticiones": 4,
+            "trabajo_seg": 60,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              3,
+              5
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Alterna trote cómodo y caminata; no es un sprint. Avanza de etapa solo si la tolerancia lo permite."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 17.0
+        }
+      }
+    ],
+    "orientaciones": [
+      "Puedes distribuir las sesiones según tu semana; deja recuperación suficiente entre esfuerzos exigentes.",
+      "Los descansos son orientativos: prioriza calidad y técnica.",
+      "Cuando completes el extremo alto de repeticiones en todas las series con buena técnica y RPE adecuado, aumenta ligeramente la carga si puedes.",
+      "La sesión exprés ayuda a mantener continuidad, pero no equivale a todo el volumen de la sesión habitual."
+    ],
+    "avisos_globales": []
+  },
+  "general_cuatro_dias": {
+    "version": "3.0.0",
+    "estado": "listo",
+    "cuestionario": {
+      "objetivo": "general",
+      "dias": 4,
+      "nivel": "intermedio",
+      "lugar": "gimnasio",
+      "contraindicacion": "no",
+      "modalidad": "bicicleta",
+      "material": [
+        "banco",
+        "bandas",
+        "barra_discos",
+        "gimnasio",
+        "kettlebell",
+        "mancuernas",
+        "trx"
+      ]
+    },
+    "sesiones": [
+      {
+        "letra": "A",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "prensa",
+            "nombre": "Prensa de piernas",
+            "patron": "sentadilla",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y rango cómodo.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "curl_femoral",
+            "nombre": "Curl femoral en máquina",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta el recorrido a la máquina.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "press_pecho_maquina",
+            "nombre": "Press de pecho en máquina",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y agarres.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_polea",
+            "nombre": "Remo sentado en polea",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Evita impulsarte con el tronco.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "pallof",
+            "nombre": "Pallof press en polea",
+            "patron": "core",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Resiste la rotación; por lado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 27.8,
+        "alternativa_expres": {
+          "letra": "A",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "prensa",
+              "nombre": "Prensa de piernas",
+              "patron": "sentadilla",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y rango cómodo.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "curl_femoral",
+              "nombre": "Curl femoral en máquina",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta el recorrido a la máquina.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "press_pecho_maquina",
+              "nombre": "Press de pecho en máquina",
+              "patron": "empuje",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y agarres.",
+              "por_lado": false,
+              "musculo_principal": "pecho_triceps",
+              "musculo_secundario": "hombros"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 17.9
+        }
+      },
+      {
+        "letra": "B",
+        "tipo": "cardio",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Comienza caminando o pedaleando muy suave",
+            "segundos": 300
+          },
+          {
+            "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [],
+        "cardio": {
+          "modalidad": "bicicleta",
+          "formato": "intervalos",
+          "repeticiones": 8,
+          "trabajo_seg": 180,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            6,
+            7
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Intervalos controlados, sin buscar el máximo; ajusta según fatiga de piernas."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [],
+        "duracion_estimada_min": 51.0,
+        "alternativa_expres": {
+          "letra": "B",
+          "tipo": "cardio",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Comienza caminando o pedaleando muy suave",
+              "segundos": 180
+            },
+            {
+              "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [],
+          "cardio": {
+            "modalidad": "bicicleta",
+            "formato": "intervalos",
+            "repeticiones": 3,
+            "trabajo_seg": 180,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              6,
+              7
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Intervalos controlados, sin buscar el máximo; ajusta según fatiga de piernas."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 20.0
+        }
+      },
+      {
+        "letra": "C",
+        "tipo": "fuerza",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+            "segundos": 120
+          },
+          {
+            "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+            "segundos": 120
+          },
+          {
+            "descripcion": "1–2 series fáciles de aproximación al primer ejercicio, aumentando gradualmente si hay carga",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [
+          {
+            "ejercicio_id": "prensa",
+            "nombre": "Prensa de piernas",
+            "patron": "sentadilla",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y rango cómodo.",
+            "por_lado": false,
+            "musculo_principal": "cuadriceps",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "curl_femoral",
+            "nombre": "Curl femoral en máquina",
+            "patron": "bisagra",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta el recorrido a la máquina.",
+            "por_lado": false,
+            "musculo_principal": "isquios_gluteos",
+            "musculo_secundario": "gluteos"
+          },
+          {
+            "ejercicio_id": "press_pecho_maquina",
+            "nombre": "Press de pecho en máquina",
+            "patron": "empuje",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Ajusta asiento y agarres.",
+            "por_lado": false,
+            "musculo_principal": "pecho_triceps",
+            "musculo_secundario": "hombros"
+          },
+          {
+            "ejercicio_id": "remo_polea",
+            "nombre": "Remo sentado en polea",
+            "patron": "traccion",
+            "series": 2,
+            "rango": [
+              8,
+              15
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 120,
+            "instruccion": "Evita impulsarte con el tronco.",
+            "por_lado": false,
+            "musculo_principal": "espalda_biceps",
+            "musculo_secundario": "biceps"
+          },
+          {
+            "ejercicio_id": "farmer_carry",
+            "nombre": "Paseo del granjero",
+            "patron": "core",
+            "series": 2,
+            "rango": [
+              20,
+              50
+            ],
+            "unidad": "repeticiones",
+            "rpe_objetivo": 7.5,
+            "descanso_orientativo_seg": 75,
+            "instruccion": "Distancia en metros, carga equilibrada y espacio despejado.",
+            "por_lado": false,
+            "musculo_principal": "core",
+            "musculo_secundario": null
+          }
+        ],
+        "cardio": null,
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [
+          "Sesión más breve de 60 minutos: priorizamos una dosis viable, no añadimos trabajo de relleno."
+        ],
+        "duracion_estimada_min": 30.1,
+        "alternativa_expres": {
+          "letra": "C",
+          "tipo": "fuerza",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Marcha suave y movilización cómoda de hombros y cadera",
+              "segundos": 60
+            },
+            {
+              "descripcion": "Sentadillas suaves y bisagras sin carga, 6–8 repeticiones de cada una",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [
+            {
+              "ejercicio_id": "prensa",
+              "nombre": "Prensa de piernas",
+              "patron": "sentadilla",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y rango cómodo.",
+              "por_lado": false,
+              "musculo_principal": "cuadriceps",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "curl_femoral",
+              "nombre": "Curl femoral en máquina",
+              "patron": "bisagra",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta el recorrido a la máquina.",
+              "por_lado": false,
+              "musculo_principal": "isquios_gluteos",
+              "musculo_secundario": "gluteos"
+            },
+            {
+              "ejercicio_id": "press_pecho_maquina",
+              "nombre": "Press de pecho en máquina",
+              "patron": "empuje",
+              "series": 3,
+              "rango": [
+                8,
+                15
+              ],
+              "unidad": "repeticiones",
+              "rpe_objetivo": 7.5,
+              "descanso_orientativo_seg": 75,
+              "instruccion": "Ajusta asiento y agarres.",
+              "por_lado": false,
+              "musculo_principal": "pecho_triceps",
+              "musculo_secundario": "hombros"
+            }
+          ],
+          "cardio": null,
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 17.9
+        }
+      },
+      {
+        "letra": "D",
+        "tipo": "cardio",
+        "expres": false,
+        "calentamiento": [
+          {
+            "descripcion": "Comienza caminando o pedaleando muy suave",
+            "segundos": 300
+          },
+          {
+            "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+            "segundos": 180
+          }
+        ],
+        "fuerza": [],
+        "cardio": {
+          "modalidad": "bicicleta",
+          "formato": "intervalos",
+          "repeticiones": 8,
+          "trabajo_seg": 180,
+          "recuperacion_seg": 120,
+          "rpe_trabajo": [
+            6,
+            7
+          ],
+          "rpe_recuperacion": [
+            2,
+            3
+          ],
+          "instruccion": "Intervalos controlados, sin buscar el máximo; ajusta según fatiga de piernas."
+        },
+        "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+        "avisos": [],
+        "duracion_estimada_min": 51.0,
+        "alternativa_expres": {
+          "letra": "D",
+          "tipo": "cardio",
+          "expres": true,
+          "calentamiento": [
+            {
+              "descripcion": "Comienza caminando o pedaleando muy suave",
+              "segundos": 180
+            },
+            {
+              "descripcion": "Aumenta progresivamente hasta un ritmo cómodo de trabajo",
+              "segundos": 60
+            }
+          ],
+          "fuerza": [],
+          "cardio": {
+            "modalidad": "bicicleta",
+            "formato": "intervalos",
+            "repeticiones": 3,
+            "trabajo_seg": 180,
+            "recuperacion_seg": 120,
+            "rpe_trabajo": [
+              6,
+              7
+            ],
+            "rpe_recuperacion": [
+              2,
+              3
+            ],
+            "instruccion": "Intervalos controlados, sin buscar el máximo; ajusta según fatiga de piernas."
+          },
+          "vuelta_calma": "Recupera una respiración cómoda y camina suave si lo necesitas.",
+          "avisos": [],
+          "duracion_estimada_min": 20.0
+        }
+      }
+    ],
+    "orientaciones": [
+      "Puedes distribuir las sesiones según tu semana; deja recuperación suficiente entre esfuerzos exigentes.",
+      "Los descansos son orientativos: prioriza calidad y técnica.",
+      "Cuando completes el extremo alto de repeticiones en todas las series con buena técnica y RPE adecuado, aumenta ligeramente la carga si puedes.",
+      "La sesión exprés ayuda a mantener continuidad, pero no equivale a todo el volumen de la sesión habitual."
+    ],
+    "avisos_globales": []
+  }
+}

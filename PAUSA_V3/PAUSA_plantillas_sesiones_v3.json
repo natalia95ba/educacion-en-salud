@@ -1,0 +1,18 @@
+{
+  "version": "3.0.0",
+  "nota": "Arquetipos de composición, no prescripciones fijas. Los ejemplos ejecutables están en PAUSA_perfiles_ejemplo_v3.json.",
+  "arquetipos": [
+    {"id":"F_FULL_BODY","tipo":"fuerza","patrones_prioritarios":["sentadilla","bisagra","empuje","traccion"],"extras_posibles":["unilateral","core","pantorrilla"],"formato":"series_tradicionales_o_alternas_compatibles","objetivo":"dosis de fuerza completa"},
+    {"id":"F_UPPER","tipo":"fuerza","patrones_prioritarios":["empuje","traccion","empuje_vertical"],"extras_posibles":["core"],"formato":"series_o_superseries_compatibles","objetivo":"mayor volumen de tren superior"},
+    {"id":"F_LOWER","tipo":"fuerza","patrones_prioritarios":["sentadilla","bisagra","unilateral"],"extras_posibles":["pantorrilla","core"],"formato":"series_tradicionales","objetivo":"mayor volumen de tren inferior"},
+    {"id":"C_CONTINUO","tipo":"cardio","modalidades":["caminar","correr","bicicleta"],"formato":"continuo","objetivo":"resistencia sostenible"},
+    {"id":"C_INTERVALOS","tipo":"cardio","modalidades":["caminar","correr","bicicleta"],"formato":"intervalos_submaximos","objetivo":"variar ritmo sin convertir todo en HIIT"},
+    {"id":"C_CACO","tipo":"cardio","modalidades":["caco"],"formato":"intervalos_correr_caminar","objetivo":"introducción gradual a la carrera"},
+    {"id":"M_FUERZA_PRIORITARIA","tipo":"mixta","patrones_prioritarios":["sentadilla","bisagra","empuje","traccion"],"cardio":"complementario_suave_o_moderado","objetivo":"fuerza con cardio dosificado"},
+    {"id":"M_CARDIO_PRIORITARIO","tipo":"mixta","patrones_prioritarios":["sentadilla","bisagra","empuje","traccion"],"cardio":"prioritario","objetivo":"resistencia con exposición mínima de fuerza"},
+    {"id":"X_FUERZA","tipo":"expres","duracion_objetivo_min":20,"patrones_prioritarios":["pierna","empuje","traccion"],"objetivo":"continuidad de fuerza con dosis reducida"},
+    {"id":"X_CARDIO","tipo":"expres","duracion_objetivo_min":20,"cardio":"continuo_o_intervalos_controlados","objetivo":"continuidad aeróbica"},
+    {"id":"X_MIXTA","tipo":"expres","duracion_objetivo_min":20,"patrones_prioritarios":["pierna","empuje_o_traccion"],"cardio":"breve_y_controlado","objetivo":"dosis mínima combinada"}
+  ],
+  "formatos_adicionales_para_implementacion_posterior":["superseries_compatibles","circuitos_temporizados","rondas","AMRAP_submaximo","EMOM_submaximo"]
+}

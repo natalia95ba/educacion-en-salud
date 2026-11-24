@@ -1,0 +1,380 @@
+
+/* ============================================
+   HEADER - EDUCACIÓN EN SALUD
+   Estilos completamente aislados
+============================================ */
+
+.site-header {
+  --header-primary: #07585d;
+  --header-turquoise: #079b97;
+  --header-dark: #102236;
+  --header-height: 104px;
+
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  height: var(--header-height);
+  min-height: var(--header-height);
+  background: #ffffff;
+  border-bottom: 1px solid rgba(9, 54, 65, 0.06);
+  box-shadow: 0 3px 14px rgba(10, 40, 50, 0.045);
+  font-family: inherit;
+}
+
+.site-header,
+.site-header * {
+  box-sizing: border-box;
+}
+
+.site-header__container {
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 4.2%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+/* ============================================
+   LOGO Y MARCA
+============================================ */
+
+.site-header__brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  gap: 20px;
+
+  height: 100%;
+  text-decoration: none;
+  color: var(--header-dark);
+}
+
+.site-header__logo {
+  display: block;
+  width: 265px;
+  max-width: 265px;
+  height: auto;
+  max-height: 83px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-header__tagline {
+  display: block;
+  padding-left: 23px;
+  border-left: 2px solid #149c98;
+
+  color: var(--header-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+/* ============================================
+   NAVEGACIÓN
+============================================ */
+
+.site-header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(20px, 2.6vw, 43px);
+
+  height: 100%;
+  margin-left: auto;
+}
+
+.site-header__link {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  height: 100%;
+  padding: 0;
+  white-space: nowrap;
+
+  color: var(--header-dark);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  transition: color 0.2s ease;
+}
+
+.site-header__link:hover,
+.site-header__link.active {
+  color: var(--header-primary);
+}
+
+.site-header__link.active {
+  font-weight: 700;
+}
+
+/* Subrayado de la sección activa */
+
+.site-header__link::after {
+  content: "";
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+
+  width: 0;
+  height: 3px;
+
+  border-radius: 5px;
+  background: var(--header-turquoise);
+
+  transition: width 0.25s ease;
+}
+
+.site-header__link:hover::after,
+.site-header__link.active::after {
+  width: 100%;
+}
+
+.site-header__dropdown-icon {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.site-header__link:hover .site-header__dropdown-icon {
+  transform: translateY(2px);
+}
+
+/* ============================================
+   BOTÓN CONTACTO
+============================================ */
+
+.site-header__contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+  min-width: 145px;
+  min-height: 54px;
+  padding: 0 29px;
+
+  border-radius: 50px;
+  background: linear-gradient(110deg, #075b60, #087d7b);
+
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.site-header__contact:hover {
+  color: #ffffff;
+  background: #064e53;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(5, 91, 96, 0.2);
+}
+
+/* ============================================
+   BOTÓN MENÚ MÓVIL
+============================================ */
+
+.site-header__mobile-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+  padding: 0;
+
+  border: 0;
+  border-radius: 10px;
+  background: #e8f6f5;
+  color: var(--header-primary);
+
+  cursor: pointer;
+}
+
+/* ============================================
+   TABLET / PORTÁTIL
+============================================ */
+
+@media (max-width: 1150px) {
+  .site-header {
+    --header-height: 90px;
+  }
+
+  .site-header__container {
+    padding: 0 3%;
+    gap: 20px;
+  }
+
+  .site-header__logo {
+    width: 210px;
+    max-width: 210px;
+  }
+
+  .site-header__tagline {
+    font-size: 13px;
+    padding-left: 15px;
+  }
+
+  .site-header__brand {
+    gap: 12px;
+  }
+
+  .site-header__nav {
+    gap: 19px;
+  }
+
+  .site-header__link {
+    font-size: 14px;
+  }
+
+  .site-header__contact {
+    min-width: 115px;
+    min-height: 47px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .site-header__link::after {
+    bottom: 19px;
+  }
+}
+
+/* ============================================
+   TABLET PEQUEÑA
+============================================ */
+
+@media (max-width: 900px) {
+  .site-header__tagline {
+    display: none;
+  }
+
+  .site-header__logo {
+    width: 220px;
+    max-width: 220px;
+  }
+
+  .site-header__nav {
+    gap: 17px;
+  }
+}
+
+/* ============================================
+   MÓVIL
+============================================ */
+
+@media (max-width: 700px) {
+  .site-header {
+    --header-height: 78px;
+  }
+
+  .site-header__container {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+
+  .site-header__logo {
+    width: 190px;
+    max-width: 190px;
+    max-height: 65px;
+  }
+
+  .site-header__mobile-toggle {
+    display: inline-flex;
+    flex-shrink: 0;
+  }
+
+  .site-header__nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0;
+
+    height: auto;
+    max-height: calc(100vh - 78px);
+    overflow-y: auto;
+
+    margin: 0;
+    padding: 12px 20px 24px;
+
+    background: #ffffff;
+    box-shadow: 0 12px 20px rgba(10, 40, 50, 0.1);
+    border-top: 1px solid #edf2f2;
+  }
+
+  .site-header__nav--open {
+    display: flex;
+  }
+
+  .site-header__link {
+    width: 100%;
+    height: auto;
+    min-height: 52px;
+    justify-content: flex-start;
+
+    padding: 12px 5px;
+    border-bottom: 1px solid #edf1f1;
+
+    font-size: 16px;
+  }
+
+  .site-header__link::after {
+    bottom: 0;
+    height: 2px;
+  }
+
+  .site-header__link.active::after {
+    width: 45px;
+  }
+
+  .site-header__contact {
+    width: 100%;
+    min-height: 49px;
+    margin-top: 18px;
+  }
+
+  .site-header__dropdown-icon {
+    margin-left: auto;
+  }
+}
+
+/* ============================================
+   MÓVIL PEQUEÑO
+============================================ */
+
+@media (max-width: 380px) {
+  .site-header__container {
+    padding: 0 14px;
+  }
+
+  .site-header__logo {
+    width: 165px;
+    max-width: 165px;
+  }
+}

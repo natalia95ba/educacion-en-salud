@@ -1,0 +1,36 @@
+:root {
+  --platform-brand: #075e58;
+  --platform-accent: #008577;
+  --platform-ink: #102b3b;
+  --platform-mint: #ddf3ee;
+  --platform-background: #f4f8f7;
+  --platform-white: #fff;
+  --platform-border: #cde5e1;
+  --platform-muted: #425e67;
+  --platform-focus: #076459;
+  --platform-font: Inter, system-ui, sans-serif;
+  --platform-space-1: .5rem;
+  --platform-space-2: .75rem;
+  --platform-space-3: 1rem;
+  --platform-space-4: 1.5rem;
+  --platform-space-5: 2rem;
+  --platform-radius: 20px;
+  --platform-radius-small: 12px;
+  --platform-shadow: 0 3px 12px #075e5814;
+  --platform-sidebar-width: 260px;
+  --platform-sidebar-background: #073f43;
+  --platform-sidebar-text: #ffffff;
+  --platform-sidebar-muted: #c4d9d8;
+  --platform-sidebar-icon: #ffffff;
+  --platform-sidebar-active: #008577;
+  --platform-sidebar-hover: #12565a;
+  --platform-sidebar-divider: #396467;
+  --platform-header-height: 98px;
+  --platform-target: 44px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
