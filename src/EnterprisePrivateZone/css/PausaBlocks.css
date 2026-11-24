@@ -280,6 +280,7 @@ a {
   background: white;
 }
 
+<<<<<<< HEAD
 .pausa-video-card--embedded {
   display: grid;
 }
@@ -291,6 +292,8 @@ a {
   border-radius: 17px;
 }
 
+=======
+>>>>>>> origin/main
 .pausa-video-placeholder {
   min-width: 42%;
   height: 145px;
